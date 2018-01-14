@@ -25,9 +25,10 @@ pac_arrays - Records indices of subsampling of pac_guide.csv
 pac_augment_arrays - Records indices of subsampling of pac_transform_guide.csv
 pac_cnn_features - Holds PCA compressed CNN features 
 pac_hog_features - Holds PCA compressed HOG features
-pac_models - Holds all the different models (move individual models to parent directory to run with code)
 
 0.png - Sample augment image file, is camera_02 label 1
 20160930_084735_699.npz - Sample numpy file, is camera_02 label 1
 
 pac-research-sample.pdf - 2 page writeup
+
+Download pac_models from https://drive.google.com/file/d/19U4rMQgftw3bsC6h59YdGH8iv4gXIBqC/view?usp=sharing; unzip and place into directory with notebooks.  To use specific models, move hdf5 files from pac_models to parent directory.
